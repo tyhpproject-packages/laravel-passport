@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-passport",
+    "description": "Tyhp type definitions for laravel/passport 13.8.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "13.8.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-passport-impl": "~13.8.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-passport-impl"
+        }
+    }
+}
